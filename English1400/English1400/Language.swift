@@ -86,13 +86,13 @@ class LangArray {
     //Section3
     static let E_langArray3 = [
         "express", "communicate", "suppose", "recognize", "respect", "regard", "mention",
-        "bite", "prefer", "determine", "contact", "approach", "apply", "introduce", "astablish",
+        "bite", "prefer", "determine", "contact", "approach", "apply", "introduce", "establish",
         "attend", "serve", "treat", "maintain", "contain", "join", "perform", "marry",
         "survive", "achieve", "advance", "prevent", "gain", "prove", "fit", "prepare",
         "supply", "mark", "solve", "occur", "object", "damage", "discuss", "represent", "attack",
         "waste", "bear", "material", "moment", "crime", "trouble", "loss", "factor",
         "resource", "cell", "bill", "range", "medium", "generation", "purpose", "planet",
-        "region", "trade", "attitude", "function", "policy", "method", "advantage", "charactor", "task",
+        "region", "trade", "attitude", "function", "policy", "method", "advantage", "character", "task",
         "economy", "focus", "temperature", "sort", "aspect", "detail", "reality", "decade", "feature",
         "emotion", "charge", "male", "wild", "urban", "huge", "private", "worth", "essential",
         "positive", "negative", "chemical", "ordinary", "unique", "specific", "central", "direct",
@@ -104,7 +104,7 @@ class LangArray {
         "を表現する", "意思を通じ合う", "と思う\n(文頭で接続詞的に)もし(・・・)ならば", "をそれとわかる", "を尊敬する", "を見なす", "に言及する",
         "に噛み付く", "の方を好む", "を決定する、を突き止める", "と連絡を取る", "近づく", "申し込む", "を紹介する", "を設立する",
         "に出席する", "役立つ", "を扱う", "を維持する", "を含む", "に参加する", "を行う", "と結婚する",
-        "(切り抜けて)生き残る", "を達成する", "進む", "を妨げる", "を(努力して)手に入れる", "を証明する", "(に)ぴったり合う、うまう合う", "準備する",
+        "(切り抜けて)生き残る", "を達成する", "進む", "を妨げる", "を(努力して)手に入れる", "を証明する", "(に)ぴったり合う、うまく合う", "準備する",
         "を供給する", "(印など)をつける", "を解決する", "(事が)起こる", "反対する", "(物の・体の一部)に損害を与える", "について議論する", "を象徴する", "を襲う、攻撃する",
         "を浪費する", "を我慢する", "材料、原料", "瞬間", "犯罪", "苦労", "損害(額)、失う事", "要因、要素",
         "資源", "細胞\n(cell phoneで)携帯電話", "請求書、勘定(書)", "範囲", "(伝達などの)媒体、手段", "世代", "目的", "惑星",
@@ -122,7 +122,7 @@ class LangArray {
     static let E_langArray4 = [
         "seek", "search", "observe", "survey", "connect", "separate", "divide",
         "replace", "hide", "exchange", "respond", "publish", "associate", "guess", "assume", "reflect",
-        "indicate", "reveal", "doubt", "refuse", "match", "ingore", "decrease", "decline",
+        "indicate", "reveal", "doubt", "refuse", "match", "ignore", "decrease", "decline",
         "disappear", "destroy", "burn", "estimate", "manage", "feed", "attract", "promote", "attempt",
         "contribute", "succeed", "desire", "earn", "satisfy", "indentify", "collect",
         "invite", "taste", "structure", "surface", "degree", "site", "content", "profit", "income",
@@ -163,7 +163,7 @@ class LangArray {
         "suffer", "complain", "hurt", "address", "enable", "graduate", "flow", "emerge",
         "belong", "repeat", "pollution", "emission", "progress", "wealth", "scale", "mass",
         "track", "trend", "strategy", "aim", "basis", "fund", "stock", "literature", "scene",
-        "traffic", "vehicle", "cancer", "universe", "suthority", "institution", "colleague", "resident", "volunteer",
+        "traffic", "vehicle", "cancer", "universe", "authority", "institution", "colleague", "resident", "volunteer",
         "consequence", "capacity", "debate", "revolution", "custom", "threat", "struggle", "context",
         "gene", "phenomenon", "alternative", "previous", "former", "relative", "primary", "extreme",
         "complicated", "accurate", "typical", "rural", "commercial", "straight", "efficient", "ideal", "actual",
@@ -239,7 +239,7 @@ class LangArray {
         "barrier", "diversity", "corporation", "facility", "agency", "instrument", "leisure", "vision", "emergency",
         "glacier", "reasonable", "sufficient", "smart", "pleasant", "elementary", "proper", "virtual",
         "sudden", "immediate", "remote", "nuclear", "aggressive", "contemporary", "conventional", "asleep", "minor",
-        "evil", "anxious", "domestic", "widespread", "verbal", "thin", "annual", "arucial"
+        "evil", "anxious", "domestic", "widespread", "verbal", "thin", "annual", "crucial"
     ]
     
     
@@ -273,7 +273,7 @@ class LangArray {
         "budget", "vote", "theory", "mystery", "myth", "psychology", "innovation", "duty",
         "routine", "mammal", "infant", "fee", "surgery", "trait", "edge", "landscape",
         "biological", "marine", "tropical", "exact", "pure", "initial", "principal", "superior",
-        "vital", "intense", "distinct", "numerous", "odd", "extraordinary", "artificial", "nanual", "rational",
+        "vital", "intense", "distinct", "numerous", "odd", "extraordinary", "artificial", "manual", "rational",
         "curious", "lonely", "rude", "shy", "equivalent", "precise", "brief"
     ]
     
@@ -401,7 +401,7 @@ class LangArray {
     
     //Section12
     static let E_langArray12 = [
-        "acknowledge", "profit", "blossom", "embrace", "confront", "heal", "rear", "assign",
+        "acknowledge", "prohibit", "blossom", "embrace", "confront", "heal", "rear", "assign",
         "exaggerate", "pronounce", "reinforce", "constitute", "reform", "violate", "irritate", "cease",
         "insult", "resort", "correspond", "conquer", "prevail", "persist", "renew", "scatter",
         "conceal", "flourish", "sink", "overwhelm", "attribute", "exclude", "rob", "deprive",
@@ -420,7 +420,7 @@ class LangArray {
         "を認める", "を禁止する", "成長する", "を抱きしめる", "(問題などが)に立ちはだかる", "を治す、癒やす", "を育てる", "(物・仕事など)を割り当てる",
         "を誇張する", "を発音する", "を強化する", "を構成する", "を改革する", "(法などに)違反する", "をいらいらさせる", "をやめる",
         "を侮辱する", "訴える", "一致する\n(手紙などで)連絡を取り合う", "を征服する", "普及する", "固執する、しつこく続ける", "を更新する", "を撒き散らす",
-        "を隠す", "繁盛する", "沈む", "をまいらせる", "(功績など)を(・・・の)せいと考える", "を除外する", "を締め出す", "(人)から奪う", "(人)から(大切なものを)奪う",
+        "を隠す", "繁盛する", "沈む", "をまいらせる", "(功績など)を(・・・の)せいと考える", "を除外する、を締め出す", "(人)から奪う", "(人)から(大切なものを)奪う",
         "ぶらつく、歩き回る", "を限定する", "を逆転させる", "を装飾する", "を予期[予想]する", "を(ひどく)驚かせる", "(語)をつづる", "を評価する",
         "をためる、蓄積する", "を解雇する", "差別", "熱心", "障害(物)", "才能", "濫用", "義務", "(普通〜s)規制",
         "信用", "契約", "保険", "(料理の)材料", "住民", "(自然環境などの)保護", "(普通〜s)(能力・年齢などが)同等の仲間", "計画",
@@ -446,7 +446,7 @@ class LangArray {
         "triumph", "viewpoint", "dawn", "illusion", "outlook", "phase", "draft", "toll", "tuition",
         "circulation", "criterion", "sculpture", "grave", "tap", "nursery", "republic", "despair", "decay",
         "fatigue", "defect", "tremendous", "loose", "tense", "steep", "shallow", "gradual", "neat",
-        "scarce", "awful", "hostile", "immense", "through", "valid", "definite", "magnificent", "holy",
+        "scarce", "awful", "hostile", "immense", "thorough", "valid", "definite", "magnificent", "holy",
         "metropolitan", "interior", "bare", "naked", "inferior", "decent", "sincere", "bold"
     ]
     
@@ -472,7 +472,7 @@ class LangArray {
     //Section14
     static let E_langArray14 = [
         "scratch", "mend", "sew", "dye", "bind", "bathe", "soak",
-        "utillze", "assure", "conform", "undertake", "overtake", "invade", "tease", "utter",
+        "utilize", "assure", "conform", "undertake", "overtake", "invade", "tease", "utter",
         "confess", "disclose", "betray", "contradict", "scold", "condemn", "disregard", "surrender",
         "disguise", "penetrate", "tolerate", "suspend", "seize", "coincide", "dispose", "congratulate",
         "slap", "weep", "resign", "ache", "dread", "thrust", "speculate", "conceive",
