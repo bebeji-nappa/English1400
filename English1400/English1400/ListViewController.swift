@@ -26,7 +26,7 @@ class ListViewController: UIViewController, UITableViewDelegate, UITableViewData
         tv.register(UITableViewCell.self, forCellReuseIdentifier: "Q")
         tv.delegate = self
         tv.dataSource = self
-        self.view.addSubview(tv)
+        view.addSubview(tv)
         
         //トップへ戻るボタン
         let lb = UIButton(frame: CGRect(x: (w - 200) / 2, y: h - 100, width: 200, height: 50))
@@ -35,7 +35,7 @@ class ListViewController: UIViewController, UITableViewDelegate, UITableViewData
         lb.setTitleColor(.white, for: UIControlState())
         lb.layer.cornerRadius = 15.0
         lb.addTarget(self, action: #selector(goTop), for: .touchUpInside)
-        self.view.addSubview(lb)
+        view.addSubview(lb)
     }
     
     
@@ -44,7 +44,7 @@ class ListViewController: UIViewController, UITableViewDelegate, UITableViewData
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let storyboard: UIStoryboard = self.storyboard!
         let main = storyboard.instantiateViewController(withIdentifier: unit[indexPath.row])
-        self.present(main, animated: true, completion: nil)
+        present(main, animated: true, completion: nil)
     }
     
     //項目(セル)の行数を格納
@@ -68,7 +68,7 @@ class ListViewController: UIViewController, UITableViewDelegate, UITableViewData
     @objc func goTop(_ b: UIButton) {
         let storyboard: UIStoryboard = self.storyboard!
         let main = storyboard.instantiateViewController(withIdentifier: "Main")
-        self.present(main, animated: true, completion: nil)
+        present(main, animated: true, completion: nil)
     }
 }
 
